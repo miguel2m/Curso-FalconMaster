@@ -28,7 +28,7 @@ body {
 
 .caja{
     width: 100px;
-   /* height: 100px;*/
+   height: 100px;
     background: #f79256;
     text-align: center;
     margin: 20px;
@@ -38,6 +38,7 @@ body {
     /*order: 1;*/
     flex-grow: 1;
     align-content: center;
+    flex: 1 1 auto; /* Proporcion de 1 para Crecer , Disminuir en 1 y un tamaño auto*/
 }
 
 .uno{
@@ -46,6 +47,10 @@ body {
 
 .dos{
     flex-shrink: 0;/*No se hace mas pequeño que el width*/
+    /*flex-basis: 200px; /*width 200px*/
+    flex-grow: 2;
+    align-self: stretch;
+    height: auto;
     width: 200px;
     order: 2;
 }
