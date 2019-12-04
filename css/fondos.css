@@ -1,0 +1,11 @@
+body{
+    /*background: #70A4E8;
+    background: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   /* background-position: center; Vertical y horizontal*/
+
+   background: url(img/bg.jpg) no-repeat fixed center center;
+   background-size: cover;
+}

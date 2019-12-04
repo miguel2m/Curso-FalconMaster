@@ -1,0 +1,64 @@
+body {
+    background: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div{
+    margin: 20px 0;
+}
+
+.btn{
+    
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+
+
+/*Tamaños*/
+.small{
+    font-size: 14px;
+    padding: 10px 15px;
+}
+
+.medium{
+    font-size: 16px;
+    padding: 15px 20px;
+}
+.big{
+    font-size: 18px;
+    padding: 20px 25px;
+}
+.extra-large{
+    font-size: 20px;
+    padding: 25px 30px;
+}
+
+
+/* Colores de botones*/
+.brown{
+    background: #654236;
+}
+
+.orange{
+    background: #db995a;
+}
+.vanilla{
+    background: #d6d4a0;
+}
+.bronze{
+    background: #da7635;
+}
+
+/*Efectos*/
+.border-radius{
+    border-radius: 100px;
+}
+.btn:hover{
+    opacity: .8;
+}

@@ -1,0 +1,28 @@
+/*Estilos Hola mundo
+*{ SELECTOR UNIVERSAL
+color: brown;
+}
+
+*/
+
+h1 {
+    color: darkblue;
+}
+
+div article p{ /*PARRAFOS dentro de un ARTICLE dentro de un DIV*/
+    font-size: 20px;
+     color: black;
+}
+
+div p a { /*Enlaces dentro de un PARRAFO dentro de un DIV*/
+    color: brown;
+}
+
+.grande{ /* CLASE*/
+    font-size: 28px;
+}
+
+
+#rojo{ /* ID */
+    color: brown;
+}
